@@ -10,7 +10,7 @@ Project folder contains two projects "host" and "consumer".
   
     java -jar IG-9191.jar
     
-After running these two hosts (Which are acting as airline service providers), proceed to run consumer project.
+After running these two hosts (Which are acting as airline service providers), proceed to run consumer project. Consumer project runs on port 8080.
 Consumer is also secured with basic authentication with 
   
   username: 
