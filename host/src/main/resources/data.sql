@@ -1,0 +1,10 @@
+insert into seat_matrix (a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1, e2, e3, f1, f2, f3, id) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1);
+insert into seat_matrix (a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1, e2, e3, f1, f2, f3, id) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2);
+insert into seat_matrix (a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1, e2, e3, f1, f2, f3, id) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3);
+insert into seat_matrix (a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1, e2, e3, f1, f2, f3, id) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4);
+insert into seat_matrix (a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1, e2, e3, f1, f2, f3, id) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5);
+insert into flight(id, flight_name, status, seat_matrix_id, price, no_of_hops) values (1, 'IG-982', 0, 1, 3059.00, 1);
+insert into flight(id, flight_name, status, seat_matrix_id, price, no_of_hops) values (2, 'IG-638', 2, 2, 2000.00, 0);
+insert into flight(id, flight_name, status, seat_matrix_id, price, no_of_hops) values (3, 'IG-873', 1, 3, 1274.00, 2);
+insert into flight(id, flight_name, status, seat_matrix_id, price, no_of_hops) values (4, 'IG-342', 1, 4, 7393.00, 0);
+insert into flight(id, flight_name, status, seat_matrix_id, price, no_of_hops) values (5, 'IG-121', 0, 5, 2384.00, 2);
